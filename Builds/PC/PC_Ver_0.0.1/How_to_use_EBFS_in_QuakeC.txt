@@ -1,0 +1,119 @@
+================================================================
+Title         : How to use the Enhanced BuiltIn Function System in QuakeC
+Date          : 2001-09-18
+Filename      : How_to_use_EBFS_in_QuakeC.txt
+Author        : Matthias "Maddes" Buecher
+Email Address : maddes@go.to
+Homepage      : Quake Info Pool
+                http://www.quake-info-pool.net/
+                Quake Standards Group (short QSG)
+                http://www.quakesrc.org/
+Complexity    : Low
+================================================================
+
+
+
+Introduction
+============
+The Enhanced BuiltIn Function System (short EBFS) was developed to provide a way
+for QuakeC coders to determine if the user's engine supports the needed
+additional builtin functions.
+
+The function names and numbers are registered on the Quake Standards Group
+homepage to keep a standard across multiple engines and QuakeC addons, so check
+it out after reading this HowTo.
+
+
+
+How to use EBFS
+===============
+EBFS for QuakeC is very easy to use in your addons. You only have to make
+changes to DEFS.QC and WORLD.QC plus all occurences where you use additional
+builtin functions.
+
+Here is an example for a fictional new builtin function called "doom_func" with
+the function number 666.
+
+Step #1 - DEFS.QC:
+
+You add the declaration of the new builtin function "doom_func" just like normal
+plus a corresponding variable for it. The declaration of the EBFS function
+"builtin_find" is obligatory.
+
+// 2001-09-14 Enhanced BuiltIn Function System (EBFS) by Maddes  start
+float(string s) builtin_find = #100;
+float	qc_builtin_find;
+// 2001-09-14 Enhanced BuiltIn Function System (EBFS) by Maddes  end
+
+// 2001-09-16 New BuiltIn Function: doom_func() by Maddes  start
+float(string s) doom_func = #666;
+float	qc_doom_func;
+// 2001-09-16 New BuiltIn Function: doom_func() by Maddes  end
+
+
+Step #2 - WORLD.QC:
+
+At the beginning of the function "worldspawn" (this is when a map is loaded) you
+have to check for the needed additional functions.
+
+You check for additional builtin functions with the EBFS function "builtin_find".
+It returns the function number of a given function name. The result is zero when
+the function does not exist. If the function exists, the QuakeC code has to
+check if the returned function number is the same as defined in DEFS.QC, this is
+for avoiding problems with non-compliant engines.
+
+If a really necessary function is not available, you should dump the game with
+the regular builtin function "error", pointing the user to the QSG homepage for
+a compliant engine.
+
+As the EBFS function "builtin_find" is an additional builtin function too, the
+above system doesn't work for it. Hence there is also a new cvar called
+"pr_builtin_find" which contains the function number of "builtin_find".
+
+// 2001-09-14 Enhanced BuiltIn Function System (EBFS) by Maddes  start
+	qc_builtin_find = cvar("pr_builtin_find");
+	if (qc_builtin_find)
+	{
+		if (qc_builtin_find != 100)
+		{
+			dprint("Builtin function \"builtin_find\" is #");
+			dprint(ftos(qc_builtin_find));
+			dprint(" and not #100 - IGNORED!!!\n");
+			qc_builtin_find = 0;
+		}
+	}
+
+	// check for additional builtin functions
+	qc_doom_func = 0;		// 2001-09-16 New BuiltIn Function: doom_func() by Maddes
+
+	if (qc_builtin_find)
+	{
+// 2001-09-16 New BuiltIn Function: doom_func() by Maddes  start
+		qc_doom_func = builtin_find("doom_func");
+		if (qc_doom_func)
+		{
+			if (qc_doom_func != 666)
+			{
+				dprint("Builtin function \"doom_func\" is #");
+				dprint(ftos(qc_doom_func));
+				dprint(" and not #666 - IGNORED!!!\n");
+				qc_doom_func = 0;
+			}
+		}
+// 2001-09-16 New BuiltIn Function: doom_func() by Maddes  end
+}
+// 2001-09-14 Enhanced BuiltIn Function System (EBFS) by Maddes  end
+
+
+Step #3 - Using new builtin functions anywhere
+
+Everytime you want to use one of the new builtin functions you have determine if
+it is available by checking its corresponding variable.
+
+	if (qc_doom_func)
+	{
+		result = doom_func("New Doom is coming!!!\n");
+	}
+
+Instead of using a separate variable for each builtin function, you could also
+use variables with bit flags (Note: 24 bit flags are the maximum of a float).

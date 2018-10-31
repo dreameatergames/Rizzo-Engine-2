@@ -1,0 +1,114 @@
+================================================================
+Title         : How to use the Extension System in QuakeC
+Date          : 2001-10-20
+Filename      : How_to_use_ES_in_QuakeC.txt
+Author        : Matthias "Maddes" Buecher
+Email Address : maddes@go.to
+Homepage      : Quake Info Pool
+                http://www.quake-info-pool.net/
+                Quake Standards Group (short QSG)
+                http://www.quakesrc.org/
+Complexity    : Low
+================================================================
+
+
+
+Introduction
+============
+Many engines provide new functionalities for QuakeC coders to use in their addons. But the problem for QuakeC coders is how to determine during run-time if the engine supports all the needed new functionalities? That is where LordHavoc came in. He added a builtin function which states if an extension is available in the engine or not.
+
+LordHavoc's function was added to the QSG standard by using the Enhanced BuiltIn Function System (EBFS) with the name "extension_find" and the number #99.
+
+So for checking builtin functions it is recommended to use EBFS's "builtin_find" and for all other enhancements LordHavoc's "extension_find".
+
+
+
+How to use the Extension System in QuakeC
+=========================================
+The Extension System is implemented by using the Enhanced BuiltIn Function System (EBFS) of the Quake Standards Group (QSG). Check out their homepage for more details on EBFS and other additional builtin functions.
+
+Using the Extension System and EBFS in your addons is very easy. You only have to make changes to DEFS.QC and WORLD.QC plus all occurences where you use extensions or additional builtin functions.
+
+Here is an example for a fictional extension called "tutorial_sample".
+
+Step #1 - DEFS.QC:
+
+You add the declaration of the new builtin function "extension_find" just like normal plus a corresponding variable for it. For each extension you should also add a corresponding variable. The declaration of the EBFS function "builtin_find" is obligatory.
+
+// 2001-09-14 Enhanced BuiltIn Function System (EBFS) by Maddes  start
+float(string s) builtin_find = #100;
+float	qc_builtin_find;
+// 2001-09-14 Enhanced BuiltIn Function System (EBFS) by Maddes  end
+
+// 2001-10-20 Extension System by LordHavoc  start
+float(string s) extension_find = #99;
+float	qc_extension_find;
+// 2001-10-20 Extension System by LordHavoc  end
+
+float	ext_tut_sample;	// 2001-10-20 New Extension: tutorial_sample by Maddes
+
+
+Step #2 - WORLD.QC:
+
+At the beginning of the function "worldspawn" (this is when a map is loaded) you have to check for the needed additional functions and extensions.
+
+You check for additional builtin functions with the EBFS function "builtin_find". It returns the function number of a given function name. The result is zero when the function does not exist. If the function exists, the QuakeC code has to check if the returned function number is the same as defined in DEFS.QC, this is for avoiding problems with non-compliant engines.
+
+If a really necessary function is not available, you should dump the game with the regular builtin function "error", pointing the user to the QSG homepage for a compliant engine.
+
+As the EBFS function "builtin_find" is an additional builtin function too, the above system doesn't work for it. Hence there is also a new cvar called "pr_builtin_find" which contains the function number of "builtin_find".
+
+After checking all the builtin functions you can check for the extensions.
+
+// 2001-09-14 Enhanced BuiltIn Function System (EBFS) by Maddes  start
+	qc_builtin_find = cvar("pr_builtin_find");
+	if (qc_builtin_find)
+	{
+		if (qc_builtin_find != 100)
+		{
+			dprint("Builtin function \"builtin_find\" is #");
+			dprint(ftos(qc_builtin_find));
+			dprint(" and not #100 - IGNORED!!!\n");
+			qc_builtin_find = 0;
+		}
+	}
+
+	// check for additional builtin functions
+	qc_extension_find = 0;	// 2001-10-20 Extension System by LordHavoc
+
+	if (qc_builtin_find)
+	{
+// 2001-10-20 Extension System by LordHavoc  start
+		qc_extension_find = builtin_find("extension_find");
+		if (qc_extension_find)
+		{
+			if (qc_extension_find != 99)
+			{
+				dprint("Builtin function \"extension_find\" is #");
+				dprint(ftos(qc_extension_find));
+				dprint(" and not #99 - IGNORED!!!\n");
+				qc_extension_find = 0;
+			}
+		}
+// 2001-10-20 Extension System by LordHavoc  end
+	}
+// 2001-09-14 Enhanced BuiltIn Function System (EBFS) by Maddes  end
+
+// 2001-10-20 Extension System by LordHavoc  start
+	if (qc_extension_find)
+	{
+		ext_tut_sample = extension_find("tutorial_sample");	// 2001-10-20 New Extension: tutorial_sample by Maddes
+	}
+// 2001-10-20 Extension System by LordHavoc  end
+
+
+Step #3 - Using extensions anywhere
+
+Everytime you want to use one of the extensions you have determine if it is available by checking its corresponding variable.
+
+	if (ext_tut_sample)
+	{
+		// Do here what is necessary for this extension
+	}
+
+Instead of using a separate variable for each extension, you could also use variables with bit flags (Note: 24 bit flags are the maximum of a float).

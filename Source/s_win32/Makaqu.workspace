@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Makaqu workspace">
+		<Project filename="WinQuake.cbp" active="1" />
+		<Project filename="gas2masm\gas2masm.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,3364 @@
+# depslib dependency file v1.0
+1187468630 source:c:\cygwin\home\manoel\makaqu\s_win32\winquake.rc
+	"include/resource.h"
+	"afxres.h"
+
+1136250138 c:\cygwin\home\manoel\makaqu\s_win32\include\resource.h
+
+1130051010 source:c:\cygwin\home\manoel\makaqu\common\src\chase.c
+	"quakedef.h"
+
+1155250782 c:\cygwin\home\manoel\makaqu\common\include\quakedef.h
+	<math.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<setjmp.h>
+	"common.h"
+	"bspfile.h"
+	"vid.h"
+	"sys.h"
+	"zone.h"
+	"mathlib.h"
+	"wad.h"
+	"draw.h"
+	"cvar.h"
+	"screen.h"
+	"net.h"
+	"protocol.h"
+	"cmd.h"
+	"sbar.h"
+	"sound.h"
+	"render.h"
+	"client.h"
+	"progs.h"
+	"server.h"
+	"gl_model.h"
+	"model.h"
+	"d_iface.h"
+	"input.h"
+	"world.h"
+	"keys.h"
+	"console.h"
+	"view.h"
+	"menu.h"
+	"crc.h"
+	"cdaudio.h"
+	"glquake.h"
+
+1131072728 c:\cygwin\home\manoel\makaqu\common\include\common.h
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\bspfile.h
+
+1163474404 c:\cygwin\home\manoel\makaqu\common\include\vid.h
+
+1146463590 c:\cygwin\home\manoel\makaqu\common\include\sys.h
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\zone.h
+
+1128372954 c:\cygwin\home\manoel\makaqu\common\include\mathlib.h
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\wad.h
+
+1191291850 c:\cygwin\home\manoel\makaqu\common\include\draw.h
+
+1129715744 c:\cygwin\home\manoel\makaqu\common\include\cvar.h
+
+1135281188 c:\cygwin\home\manoel\makaqu\common\include\screen.h
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\net.h
+
+1154649272 c:\cygwin\home\manoel\makaqu\common\include\protocol.h
+
+1119564654 c:\cygwin\home\manoel\makaqu\common\include\cmd.h
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\sbar.h
+
+1127442518 c:\cygwin\home\manoel\makaqu\common\include\sound.h
+
+1154648804 c:\cygwin\home\manoel\makaqu\common\include\render.h
+
+1138581598 c:\cygwin\home\manoel\makaqu\common\include\client.h
+
+1142552852 c:\cygwin\home\manoel\makaqu\common\include\progs.h
+	"pr_comp.h"
+	"progdefs.h"
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\pr_comp.h
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\progdefs.h
+	"progdefs.q2"
+	"progdefs.q1"
+
+856523606 c:\cygwin\home\manoel\makaqu\common\include\progdefs.q1
+
+1154476150 c:\cygwin\home\manoel\makaqu\common\include\server.h
+
+1157818420 c:\cygwin\home\manoel\makaqu\common\include\model.h
+	"modelgen.h"
+	"spritegn.h"
+
+1157818420 c:\cygwin\home\manoel\makaqu\common\include\modelgen.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+1125861254 c:\cygwin\home\manoel\makaqu\common\include\spritegn.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"dictlib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+1206249370 c:\cygwin\home\manoel\makaqu\common\include\d_iface.h
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\input.h
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\world.h
+
+1206257024 c:\cygwin\home\manoel\makaqu\common\include\keys.h
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\console.h
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\view.h
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\menu.h
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\crc.h
+
+1150414040 c:\cygwin\home\manoel\makaqu\common\include\cdaudio.h
+
+1129450662 source:c:\cygwin\home\manoel\makaqu\common\src\cl_demo.c
+	"quakedef.h"
+	<kos.h>
+	<assert.h>
+
+1142558930 source:c:\cygwin\home\manoel\makaqu\common\src\cl_input.c
+	"quakedef.h"
+
+1150515572 source:c:\cygwin\home\manoel\makaqu\common\src\cl_main.c
+	"quakedef.h"
+
+1155266904 source:c:\cygwin\home\manoel\makaqu\common\src\cl_parse.c
+	"quakedef.h"
+
+1147571778 source:c:\cygwin\home\manoel\makaqu\common\src\cl_tent.c
+	"quakedef.h"
+
+1188016722 source:c:\cygwin\home\manoel\makaqu\common\src\cmd.c
+	"quakedef.h"
+
+1140452912 source:c:\cygwin\home\manoel\makaqu\common\src\common.c
+	"quakedef.h"
+
+1201229018 source:c:\cygwin\home\manoel\makaqu\common\src\console.c
+	<libc.h>
+	<unistd.h>
+	<fcntl.h>
+	"quakedef.h"
+
+1129714040 source:c:\cygwin\home\manoel\makaqu\common\src\crc.c
+	"quakedef.h"
+	"crc.h"
+
+1137621150 source:c:\cygwin\home\manoel\makaqu\common\src\cvar.c
+	"quakedef.h"
+
+1163474404 source:c:\cygwin\home\manoel\makaqu\common\src\host.c
+	"quakedef.h"
+	"r_local.h"
+
+1141177958 c:\cygwin\home\manoel\makaqu\common\include\r_local.h
+	"r_shared.h"
+
+1129264016 c:\cygwin\home\manoel\makaqu\common\include\r_shared.h
+
+1206300212 source:c:\cygwin\home\manoel\makaqu\common\src\host_cmd.c
+	"quakedef.h"
+
+1201240376 source:c:\cygwin\home\manoel\makaqu\common\src\keys.c
+	"quakedef.h"
+
+1172169694 source:c:\cygwin\home\manoel\makaqu\common\src\mathlib.c
+	<math.h>
+	"quakedef.h"
+
+1201137524 source:c:\cygwin\home\manoel\makaqu\common\src\menu.c
+	"quakedef.h"
+	"winquake.h"
+
+1102792510 c:\cygwin\home\manoel\makaqu\s_win32\include\winquake.h
+	<windows.h>
+	<ddraw.h>
+	<dsound.h>
+	<mgraph.h>
+
+854447824 c:\cygwin\home\manoel\makaqu\s_win32\dxsdk\sdk\inc\ddraw.h
+	<objbase.h>
+
+854447824 c:\cygwin\home\manoel\makaqu\s_win32\dxsdk\sdk\inc\dsound.h
+	<objbase.h>
+
+858106002 c:\cygwin\home\manoel\makaqu\s_win32\scitech\include\mgraph.h
+	<stdio.h>
+	"debug.h"
+	"mglrect.hpp"
+	"mglwin.h"
+	"mgldos.h"
+
+857482448 c:\cygwin\home\manoel\makaqu\s_win32\scitech\include\debug.h
+	<windows.h>
+
+858362974 c:\cygwin\home\manoel\makaqu\s_win32\scitech\include\mglwin.h
+
+854652718 c:\cygwin\home\manoel\makaqu\s_win32\scitech\include\mgldos.h
+
+945802406 source:c:\cygwin\home\manoel\makaqu\common\src\net_dgrm.c
+	<windows.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	"quakedef.h"
+	"net_dgrm.h"
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\net_dgrm.h
+
+945802406 source:c:\cygwin\home\manoel\makaqu\common\src\net_loop.c
+	"quakedef.h"
+	"net_loop.h"
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\net_loop.h
+
+1131947340 source:c:\cygwin\home\manoel\makaqu\common\src\net_main.c
+	"quakedef.h"
+	"net_vcr.h"
+
+945802460 c:\cygwin\home\manoel\makaqu\common\include\net_vcr.h
+
+945802406 source:c:\cygwin\home\manoel\makaqu\common\src\net_vcr.c
+	"quakedef.h"
+	"net_vcr.h"
+
+1188016722 source:c:\cygwin\home\manoel\makaqu\common\src\pr_cmds.c
+	"quakedef.h"
+
+1142553378 source:c:\cygwin\home\manoel\makaqu\common\src\pr_edict.c
+	"quakedef.h"
+
+1125971670 source:c:\cygwin\home\manoel\makaqu\common\src\pr_exec.c
+	"quakedef.h"
+
+1128819848 source:c:\cygwin\home\manoel\makaqu\common\src\r_part.c
+	"quakedef.h"
+	"r_local.h"
+
+1206251930 source:c:\cygwin\home\manoel\makaqu\common\src\sbar.c
+	"quakedef.h"
+
+1147355886 source:c:\cygwin\home\manoel\makaqu\common\src\snd_dma.c
+	"quakedef.h"
+	"winquake.h"
+
+1154477244 source:c:\cygwin\home\manoel\makaqu\common\src\snd_mem.c
+	"quakedef.h"
+
+1124043306 source:c:\cygwin\home\manoel\makaqu\common\src\snd_mix.c
+	"quakedef.h"
+	"winquake.h"
+
+1154650284 source:c:\cygwin\home\manoel\makaqu\common\src\sv_main.c
+	"quakedef.h"
+
+945802406 source:c:\cygwin\home\manoel\makaqu\common\src\sv_move.c
+	"quakedef.h"
+
+1206251742 source:c:\cygwin\home\manoel\makaqu\common\src\sv_phys.c
+	"quakedef.h"
+
+1150438406 source:c:\cygwin\home\manoel\makaqu\common\src\sv_user.c
+	"quakedef.h"
+
+1155267152 source:c:\cygwin\home\manoel\makaqu\common\src\view.c
+	"quakedef.h"
+	"r_local.h"
+
+1128825984 source:c:\cygwin\home\manoel\makaqu\common\src\wad.c
+	"quakedef.h"
+
+1129713582 source:c:\cygwin\home\manoel\makaqu\common\src\world.c
+	"quakedef.h"
+
+1128373912 source:c:\cygwin\home\manoel\makaqu\common\src\zone.c
+	"quakedef.h"
+
+1135281514 source:c:\cygwin\home\manoel\makaqu\r_common\src\r_2d.c
+	"quakedef.h"
+
+1145816512 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_edge.c
+	"quakedef.h"
+	"d_local.h"
+
+1129233998 c:\cygwin\home\manoel\makaqu\common\include\d_local.h
+	"r_shared.h"
+
+945802404 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_fill.c
+	"quakedef.h"
+
+1152454174 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_init.c
+	"quakedef.h"
+	"d_local.h"
+
+1152454200 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_modech.c
+	"quakedef.h"
+	"d_local.h"
+
+1128796966 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_part.c
+	"quakedef.h"
+	"d_local.h"
+
+1188018138 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_polyse.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+	"adivtab.h"
+
+945812600 c:\cygwin\home\manoel\makaqu\common\include\adivtab.h
+
+1206247892 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_scan.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1206251742 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_sky.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1128813770 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_sprite.c
+	"quakedef.h"
+	"d_local.h"
+
+1119821676 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_surf.c
+	"quakedef.h"
+	"d_local.h"
+	"r_local.h"
+
+945802404 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_vars.c
+	"quakedef.h"
+
+945802404 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_zpoint.c
+	"quakedef.h"
+	"d_local.h"
+
+1206250828 source:c:\cygwin\home\manoel\makaqu\r_soft\src\draw.c
+	"quakedef.h"
+
+1154477270 source:c:\cygwin\home\manoel\makaqu\r_soft\src\model.c
+	"quakedef.h"
+	"r_local.h"
+
+1157764456 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_aclip.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1206250788 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_alias.c
+	"quakedef.h"
+	"r_local.h"
+	"anorms.h"
+
+1108295358 c:\cygwin\home\manoel\makaqu\common\include\anorms.h
+
+1146463212 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_bsp.c
+	"quakedef.h"
+	"r_local.h"
+
+1145816552 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_draw.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1126984612 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_edge.c
+	"quakedef.h"
+	"r_local.h"
+
+945802406 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_efrag.c
+	"quakedef.h"
+	"r_local.h"
+
+1152467600 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_light.c
+	"quakedef.h"
+	"r_local.h"
+
+1206250788 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_main.c
+	"quakedef.h"
+	"r_local.h"
+
+1143257668 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_misc.c
+	"quakedef.h"
+	"r_local.h"
+
+1129713662 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_sky.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1128136526 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_sprite.c
+	"quakedef.h"
+	"r_local.h"
+
+1168716948 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_surf.c
+	"quakedef.h"
+	"r_local.h"
+
+945802406 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_vars.c
+	"quakedef.h"
+
+1170776446 source:c:\cygwin\home\manoel\makaqu\r_soft\src\screen.c
+	"quakedef.h"
+	"r_local.h"
+
+1206249892 source:c:\cygwin\home\manoel\makaqu\s_win32\src\cd_win.c
+	<windows.h>
+	"quakedef.h"
+
+1187469760 source:c:\cygwin\home\manoel\makaqu\s_win32\src\conproc.c
+	<windows.h>
+	"conproc.h"
+	"quakedef.h"
+
+945802460 c:\cygwin\home\manoel\makaqu\s_win32\include\conproc.h
+
+1201240376 source:c:\cygwin\home\manoel\makaqu\s_win32\src\in_win.c
+	<dinput.h>
+	"quakedef.h"
+	"winquake.h"
+	"dosisms.h"
+
+841218432 c:\cygwin\home\manoel\makaqu\s_win32\dxsdk\sdk\inc\dinput.h
+	<objbase.h>
+
+945802460 c:\cygwin\home\manoel\makaqu\s_win32\include\dosisms.h
+
+945802406 source:c:\cygwin\home\manoel\makaqu\s_win32\src\net_win.c
+	"quakedef.h"
+	"net_loop.h"
+	"net_dgrm.h"
+	"net_ser.h"
+	"net_wins.h"
+	"net_wipx.h"
+
+945802460 c:\cygwin\home\manoel\makaqu\s_win32\include\net_ser.h
+
+945802460 c:\cygwin\home\manoel\makaqu\s_win32\include\net_wins.h
+
+945802460 c:\cygwin\home\manoel\makaqu\s_win32\include\net_wipx.h
+
+1119932006 source:c:\cygwin\home\manoel\makaqu\s_win32\src\net_wins.c
+	"quakedef.h"
+	"winquake.h"
+	"net_wins.h"
+
+1119932044 source:c:\cygwin\home\manoel\makaqu\s_win32\src\net_wipx.c
+	"quakedef.h"
+	"winquake.h"
+	<wsipx.h>
+	"net_wipx.h"
+
+1206249892 source:c:\cygwin\home\manoel\makaqu\s_win32\src\snd_win.c
+	"quakedef.h"
+	"winquake.h"
+
+1128922216 source:c:\cygwin\home\manoel\makaqu\s_win32\src\sys_win.c
+	"quakedef.h"
+	"winquake.h"
+	"errno.h"
+	"resource.h"
+	"conproc.h"
+
+1206249372 source:c:\cygwin\home\manoel\makaqu\s_win32\src\vid_win.c
+	"quakedef.h"
+	"winquake.h"
+	"d_local.h"
+	"resource.h"
+
+1124614858 source:c:\cygwin\home\manoel\makaqu\common\src\math.s
+	"..\include\asm_i386.h"
+	"..\include\quakeasm.h"
+
+945812550 c:\cygwin\home\manoel\makaqu\common\include\asm_i386.h
+
+1155250776 c:\cygwin\home\manoel\makaqu\common\include\quakeasm.h
+
+1124614890 source:c:\cygwin\home\manoel\makaqu\s_win32\src\sys_wina.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+
+1124615318 source:c:\cygwin\home\manoel\makaqu\r_soft\src\surf16.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\include\block16.h"
+
+945812544 c:\cygwin\home\manoel\makaqu\r_soft\include\asm_draw.h
+
+945812460 c:\cygwin\home\manoel\makaqu\r_soft\include\block16.h
+
+1124614964 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_varsa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1119562102 c:\cygwin\home\manoel\makaqu\common\include\d_ifacea.h
+
+1124614978 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_edgea.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+
+1124615030 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_drawa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615054 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_aliasa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615074 source:c:\cygwin\home\manoel\makaqu\r_soft\src\r_aclipa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615090 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_varsa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615102 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_spr8.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+
+1124615120 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_scana.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615138 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_polysa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615154 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_parta.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\..\common\include\d_ifacea.h"
+	"..\include\asm_draw.h"
+
+1124615172 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_draw16.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615190 source:c:\cygwin\home\manoel\makaqu\r_soft\src\d_draw.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124614242 source:c:\cygwin\home\manoel\makaqu\common\src\worlda.s
+	"..\include\asm_i386.h"
+	"..\include\quakeasm.h"
+	"..\include\d_ifacea.h"
+
+1124614844 source:c:\cygwin\home\manoel\makaqu\common\src\snd_mixa.s
+	"..\include\asm_i386.h"
+	"..\include\quakeasm.h"
+
+1124614922 source:c:\cygwin\home\manoel\makaqu\r_soft\src\surf8.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+
+1124614890 source:c:\cygwin\makaqu\src\s_win32\src\sys_wina.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+
+945812550 c:\cygwin\makaqu\src\common\include\asm_i386.h
+
+1155250776 c:\cygwin\makaqu\src\common\include\quakeasm.h
+
+1124615318 source:c:\cygwin\makaqu\src\r_soft\src\surf16.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\include\block16.h"
+
+945812544 c:\cygwin\makaqu\src\r_soft\include\asm_draw.h
+
+945812460 c:\cygwin\makaqu\src\r_soft\include\block16.h
+
+1124614964 source:c:\cygwin\makaqu\src\r_soft\src\r_varsa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1119562102 c:\cygwin\makaqu\src\common\include\d_ifacea.h
+
+1124614978 source:c:\cygwin\makaqu\src\r_soft\src\r_edgea.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+
+1124615030 source:c:\cygwin\makaqu\src\r_soft\src\r_drawa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615054 source:c:\cygwin\makaqu\src\r_soft\src\r_aliasa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615074 source:c:\cygwin\makaqu\src\r_soft\src\r_aclipa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615090 source:c:\cygwin\makaqu\src\r_soft\src\d_varsa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615102 source:c:\cygwin\makaqu\src\r_soft\src\d_spr8.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+
+1124615120 source:c:\cygwin\makaqu\src\r_soft\src\d_scana.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615138 source:c:\cygwin\makaqu\src\r_soft\src\d_polysa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615154 source:c:\cygwin\makaqu\src\r_soft\src\d_parta.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\..\common\include\d_ifacea.h"
+	"..\include\asm_draw.h"
+
+1124615172 source:c:\cygwin\makaqu\src\r_soft\src\d_draw16.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615190 source:c:\cygwin\makaqu\src\r_soft\src\d_draw.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124614858 source:c:\cygwin\makaqu\src\common\src\math.s
+	"..\include\asm_i386.h"
+	"..\include\quakeasm.h"
+
+1124614242 source:c:\cygwin\makaqu\src\common\src\worlda.s
+	"..\include\asm_i386.h"
+	"..\include\quakeasm.h"
+	"..\include\d_ifacea.h"
+
+1124614844 source:c:\cygwin\makaqu\src\common\src\snd_mixa.s
+	"..\include\asm_i386.h"
+	"..\include\quakeasm.h"
+
+1124614922 source:c:\cygwin\makaqu\src\r_soft\src\surf8.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+
+945802406 source:c:\cygwin\makaqu\src\common\src\net_loop.c
+	"quakedef.h"
+	"net_loop.h"
+
+1155250782 c:\cygwin\makaqu\src\common\include\quakedef.h
+	<math.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<setjmp.h>
+	"common.h"
+	"bspfile.h"
+	"vid.h"
+	"sys.h"
+	"zone.h"
+	"mathlib.h"
+	"wad.h"
+	"draw.h"
+	"cvar.h"
+	"screen.h"
+	"net.h"
+	"protocol.h"
+	"cmd.h"
+	"sbar.h"
+	"sound.h"
+	"render.h"
+	"client.h"
+	"progs.h"
+	"server.h"
+	"gl_model.h"
+	"model.h"
+	"d_iface.h"
+	"input.h"
+	"world.h"
+	"keys.h"
+	"console.h"
+	"view.h"
+	"menu.h"
+	"crc.h"
+	"cdaudio.h"
+	"glquake.h"
+
+1206302724 c:\cygwin\makaqu\src\common\include\common.h
+
+1271032739 c:\cygwin\makaqu\src\common\include\bspfile.h
+
+1163474404 c:\cygwin\makaqu\src\common\include\vid.h
+
+1146463590 c:\cygwin\makaqu\src\common\include\sys.h
+
+945802460 c:\cygwin\makaqu\src\common\include\zone.h
+
+1128372954 c:\cygwin\makaqu\src\common\include\mathlib.h
+
+945802460 c:\cygwin\makaqu\src\common\include\wad.h
+
+1276058081 c:\cygwin\makaqu\src\common\include\draw.h
+
+1129715744 c:\cygwin\makaqu\src\common\include\cvar.h
+
+1276055822 c:\cygwin\makaqu\src\common\include\screen.h
+
+945802460 c:\cygwin\makaqu\src\common\include\net.h
+
+1154649272 c:\cygwin\makaqu\src\common\include\protocol.h
+
+1119564654 c:\cygwin\makaqu\src\common\include\cmd.h
+
+945802460 c:\cygwin\makaqu\src\common\include\sbar.h
+
+1127442518 c:\cygwin\makaqu\src\common\include\sound.h
+
+1271032739 c:\cygwin\makaqu\src\common\include\render.h
+
+1138581598 c:\cygwin\makaqu\src\common\include\client.h
+
+1142552852 c:\cygwin\makaqu\src\common\include\progs.h
+	"pr_comp.h"
+	"progdefs.h"
+
+945802460 c:\cygwin\makaqu\src\common\include\pr_comp.h
+
+945802460 c:\cygwin\makaqu\src\common\include\progdefs.h
+	"progdefs.q2"
+	"progdefs.q1"
+
+856523606 c:\cygwin\makaqu\src\common\include\progdefs.q1
+
+1154476150 c:\cygwin\makaqu\src\common\include\server.h
+
+1157818420 c:\cygwin\makaqu\src\common\include\model.h
+	"modelgen.h"
+	"spritegn.h"
+
+1157818420 c:\cygwin\makaqu\src\common\include\modelgen.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+1125861254 c:\cygwin\makaqu\src\common\include\spritegn.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"dictlib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+1206249370 c:\cygwin\makaqu\src\common\include\d_iface.h
+
+945802460 c:\cygwin\makaqu\src\common\include\input.h
+
+945802460 c:\cygwin\makaqu\src\common\include\world.h
+
+1206257024 c:\cygwin\makaqu\src\common\include\keys.h
+
+1275946410 c:\cygwin\makaqu\src\common\include\console.h
+
+945802460 c:\cygwin\makaqu\src\common\include\view.h
+
+945802460 c:\cygwin\makaqu\src\common\include\menu.h
+
+945802460 c:\cygwin\makaqu\src\common\include\crc.h
+
+1150414040 c:\cygwin\makaqu\src\common\include\cdaudio.h
+
+945802460 c:\cygwin\makaqu\src\common\include\net_loop.h
+
+1131947340 source:c:\cygwin\makaqu\src\common\src\net_main.c
+	"quakedef.h"
+	"net_vcr.h"
+
+945802460 c:\cygwin\makaqu\src\common\include\net_vcr.h
+
+945802406 source:c:\cygwin\makaqu\src\common\src\net_vcr.c
+	"quakedef.h"
+	"net_vcr.h"
+
+1188016722 source:c:\cygwin\makaqu\src\common\src\pr_cmds.c
+	"quakedef.h"
+
+1142553378 source:c:\cygwin\makaqu\src\common\src\pr_edict.c
+	"quakedef.h"
+
+1125971670 source:c:\cygwin\makaqu\src\common\src\pr_exec.c
+	"quakedef.h"
+
+1128819848 source:c:\cygwin\makaqu\src\common\src\r_part.c
+	"quakedef.h"
+	"r_local.h"
+
+1275969852 c:\cygwin\makaqu\src\common\include\r_local.h
+	"r_shared.h"
+
+1129264016 c:\cygwin\makaqu\src\common\include\r_shared.h
+
+1275959693 source:c:\cygwin\makaqu\src\common\src\sbar.c
+	"quakedef.h"
+
+1275709472 source:c:\cygwin\makaqu\src\common\src\snd_dma.c
+	"quakedef.h"
+	"winquake.h"
+
+1102792510 c:\cygwin\makaqu\src\s_win32\include\winquake.h
+	<windows.h>
+	<ddraw.h>
+	<dsound.h>
+	<mgraph.h>
+
+854447824 c:\cygwin\makaqu\src\s_win32\dxsdk\sdk\inc\ddraw.h
+	<objbase.h>
+
+854447824 c:\cygwin\makaqu\src\s_win32\dxsdk\sdk\inc\dsound.h
+	<objbase.h>
+
+858106002 c:\cygwin\makaqu\src\s_win32\scitech\include\mgraph.h
+	<stdio.h>
+	"debug.h"
+	"mglrect.hpp"
+	"mglwin.h"
+	"mgldos.h"
+
+857482448 c:\cygwin\makaqu\src\s_win32\scitech\include\debug.h
+	<windows.h>
+
+858362974 c:\cygwin\makaqu\src\s_win32\scitech\include\mglwin.h
+
+854652718 c:\cygwin\makaqu\src\s_win32\scitech\include\mgldos.h
+
+1154477244 source:c:\cygwin\makaqu\src\common\src\snd_mem.c
+	"quakedef.h"
+
+1124043306 source:c:\cygwin\makaqu\src\common\src\snd_mix.c
+	"quakedef.h"
+	"winquake.h"
+
+1276058447 source:c:\cygwin\makaqu\src\common\src\menu.c
+	"quakedef.h"
+	"winquake.h"
+
+1154650284 source:c:\cygwin\makaqu\src\common\src\sv_main.c
+	"quakedef.h"
+
+945802406 source:c:\cygwin\makaqu\src\common\src\sv_move.c
+	"quakedef.h"
+
+1276029706 source:c:\cygwin\makaqu\src\common\src\sv_phys.c
+	"quakedef.h"
+
+1150438406 source:c:\cygwin\makaqu\src\common\src\sv_user.c
+	"quakedef.h"
+
+1155267152 source:c:\cygwin\makaqu\src\common\src\view.c
+	"quakedef.h"
+	"r_local.h"
+
+1128825984 source:c:\cygwin\makaqu\src\common\src\wad.c
+	"quakedef.h"
+
+1276030930 source:c:\cygwin\makaqu\src\common\src\world.c
+	"quakedef.h"
+
+1172169694 source:c:\cygwin\makaqu\src\common\src\mathlib.c
+	<math.h>
+	"quakedef.h"
+
+1128373912 source:c:\cygwin\makaqu\src\common\src\zone.c
+	"quakedef.h"
+
+1135281514 source:c:\cygwin\makaqu\src\r_common\src\r_2d.c
+	"quakedef.h"
+
+1275946290 source:c:\cygwin\makaqu\src\common\src\keys.c
+	"quakedef.h"
+
+1206302488 source:c:\cygwin\makaqu\src\common\src\host_cmd.c
+	"quakedef.h"
+
+1145816512 source:c:\cygwin\makaqu\src\r_soft\src\d_edge.c
+	"quakedef.h"
+	"d_local.h"
+
+1129233998 c:\cygwin\makaqu\src\common\include\d_local.h
+	"r_shared.h"
+
+945802404 source:c:\cygwin\makaqu\src\r_soft\src\d_fill.c
+	"quakedef.h"
+
+1152454174 source:c:\cygwin\makaqu\src\r_soft\src\d_init.c
+	"quakedef.h"
+	"d_local.h"
+
+1152454200 source:c:\cygwin\makaqu\src\r_soft\src\d_modech.c
+	"quakedef.h"
+	"d_local.h"
+
+1128796966 source:c:\cygwin\makaqu\src\r_soft\src\d_part.c
+	"quakedef.h"
+	"d_local.h"
+
+1275697934 source:c:\cygwin\makaqu\src\common\src\host.c
+	"quakedef.h"
+	"r_local.h"
+
+1275848364 source:c:\cygwin\makaqu\src\common\src\cvar.c
+	"quakedef.h"
+
+1271112036 source:c:\cygwin\makaqu\src\r_soft\src\d_polyse.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+	"adivtab.h"
+
+945812600 c:\cygwin\makaqu\src\common\include\adivtab.h
+
+1275968956 source:c:\cygwin\makaqu\src\r_soft\src\d_scan.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1129714040 source:c:\cygwin\makaqu\src\common\src\crc.c
+	"quakedef.h"
+	"crc.h"
+
+1275973865 source:c:\cygwin\makaqu\src\r_soft\src\d_sky.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1275945019 source:c:\cygwin\makaqu\src\common\src\console.c
+	<libc.h>
+	<unistd.h>
+	<fcntl.h>
+	"quakedef.h"
+
+1128813770 source:c:\cygwin\makaqu\src\r_soft\src\d_sprite.c
+	"quakedef.h"
+	"d_local.h"
+
+1119821676 source:c:\cygwin\makaqu\src\r_soft\src\d_surf.c
+	"quakedef.h"
+	"d_local.h"
+	"r_local.h"
+
+945802404 source:c:\cygwin\makaqu\src\r_soft\src\d_vars.c
+	"quakedef.h"
+
+1140452912 source:c:\cygwin\makaqu\src\common\src\common.c
+	"quakedef.h"
+
+945802404 source:c:\cygwin\makaqu\src\r_soft\src\d_zpoint.c
+	"quakedef.h"
+	"d_local.h"
+
+1276065723 source:c:\cygwin\makaqu\src\r_soft\src\draw.c
+	"quakedef.h"
+
+1154477270 source:c:\cygwin\makaqu\src\r_soft\src\model.c
+	"quakedef.h"
+	"r_local.h"
+
+1157764456 source:c:\cygwin\makaqu\src\r_soft\src\r_aclip.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1275848190 source:c:\cygwin\makaqu\src\common\src\cmd.c
+	"quakedef.h"
+
+1206250788 source:c:\cygwin\makaqu\src\r_soft\src\r_alias.c
+	"quakedef.h"
+	"r_local.h"
+	"anorms.h"
+
+1108295358 c:\cygwin\makaqu\src\common\include\anorms.h
+
+1147571778 source:c:\cygwin\makaqu\src\common\src\cl_tent.c
+	"quakedef.h"
+
+1271087362 source:c:\cygwin\makaqu\src\r_soft\src\r_bsp.c
+	"quakedef.h"
+	"r_local.h"
+
+1145816552 source:c:\cygwin\makaqu\src\r_soft\src\r_draw.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1155266904 source:c:\cygwin\makaqu\src\common\src\cl_parse.c
+	"quakedef.h"
+
+1126984612 source:c:\cygwin\makaqu\src\r_soft\src\r_edge.c
+	"quakedef.h"
+	"r_local.h"
+
+1275709665 source:c:\cygwin\makaqu\src\common\src\cl_main.c
+	"quakedef.h"
+
+945802406 source:c:\cygwin\makaqu\src\r_soft\src\r_efrag.c
+	"quakedef.h"
+	"r_local.h"
+
+1152467600 source:c:\cygwin\makaqu\src\r_soft\src\r_light.c
+	"quakedef.h"
+	"r_local.h"
+
+1275969962 source:c:\cygwin\makaqu\src\r_soft\src\r_main.c
+	"quakedef.h"
+	"r_local.h"
+
+1143257668 source:c:\cygwin\makaqu\src\r_soft\src\r_misc.c
+	"quakedef.h"
+	"r_local.h"
+
+1275969755 source:c:\cygwin\makaqu\src\r_soft\src\r_sky.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1128136526 source:c:\cygwin\makaqu\src\r_soft\src\r_sprite.c
+	"quakedef.h"
+	"r_local.h"
+
+1168716948 source:c:\cygwin\makaqu\src\r_soft\src\r_surf.c
+	"quakedef.h"
+	"r_local.h"
+
+945802406 source:c:\cygwin\makaqu\src\r_soft\src\r_vars.c
+	"quakedef.h"
+
+1142558930 source:c:\cygwin\makaqu\src\common\src\cl_input.c
+	"quakedef.h"
+
+1276067346 source:c:\cygwin\makaqu\src\r_soft\src\screen.c
+	"quakedef.h"
+	"r_local.h"
+
+1129450662 source:c:\cygwin\makaqu\src\common\src\cl_demo.c
+	"quakedef.h"
+	<kos.h>
+	<assert.h>
+
+945802406 source:c:\cygwin\makaqu\src\common\src\net_dgrm.c
+	<windows.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	"quakedef.h"
+	"net_dgrm.h"
+
+945802460 c:\cygwin\makaqu\src\common\include\net_dgrm.h
+
+1206249892 source:c:\cygwin\makaqu\src\s_win32\src\cd_win.c
+	<windows.h>
+	"quakedef.h"
+
+1187469760 source:c:\cygwin\makaqu\src\s_win32\src\conproc.c
+	<windows.h>
+	"conproc.h"
+	"quakedef.h"
+
+945802460 c:\cygwin\makaqu\src\s_win32\include\conproc.h
+
+1201240376 source:c:\cygwin\makaqu\src\s_win32\src\in_win.c
+	<dinput.h>
+	"quakedef.h"
+	"winquake.h"
+	"dosisms.h"
+
+841218432 c:\cygwin\makaqu\src\s_win32\dxsdk\sdk\inc\dinput.h
+	<objbase.h>
+
+945802460 c:\cygwin\makaqu\src\s_win32\include\dosisms.h
+
+945802406 source:c:\cygwin\makaqu\src\s_win32\src\net_win.c
+	"quakedef.h"
+	"net_loop.h"
+	"net_dgrm.h"
+	"net_ser.h"
+	"net_wins.h"
+	"net_wipx.h"
+
+945802460 c:\cygwin\makaqu\src\s_win32\include\net_ser.h
+
+945802460 c:\cygwin\makaqu\src\s_win32\include\net_wins.h
+
+945802460 c:\cygwin\makaqu\src\s_win32\include\net_wipx.h
+
+1119932006 source:c:\cygwin\makaqu\src\s_win32\src\net_wins.c
+	"quakedef.h"
+	"winquake.h"
+	"net_wins.h"
+
+1119932044 source:c:\cygwin\makaqu\src\s_win32\src\net_wipx.c
+	"quakedef.h"
+	"winquake.h"
+	<wsipx.h>
+	"net_wipx.h"
+
+1276027148 source:c:\cygwin\makaqu\src\s_win32\src\snd_win.c
+	"quakedef.h"
+	"winquake.h"
+
+1128922216 source:c:\cygwin\makaqu\src\s_win32\src\sys_win.c
+	"quakedef.h"
+	"winquake.h"
+	"errno.h"
+	"resource.h"
+	"conproc.h"
+
+1136250138 c:\cygwin\makaqu\src\s_win32\include\resource.h
+
+1130051010 source:c:\cygwin\makaqu\src\common\src\chase.c
+	"quakedef.h"
+
+1276028123 source:c:\cygwin\makaqu\src\s_win32\src\vid_win.c
+	"quakedef.h"
+	"winquake.h"
+	"d_local.h"
+	"resource.h"
+
+1187468630 source:c:\cygwin\makaqu\src\s_win32\winquake.rc
+	"include/resource.h"
+	"afxres.h"
+
+1300587239 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\src\sys_wina.s
+	"..\..\asm_i386.h"
+	"..\..\quakeasm.h"
+
+945812550 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\asm_i386.h
+
+1155250776 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\quakeasm.h
+
+1124615318 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\surf16.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\include\block16.h"
+
+1290215058 c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\include\asm_draw.h
+
+945812460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\include\block16.h
+
+1124614964 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_varsa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1119562102 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\d_ifacea.h
+
+1124614978 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_edgea.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+
+1124615030 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_drawa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615054 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_aliasa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615074 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_aclipa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615090 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_varsa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615102 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_spr8.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+
+1124615120 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_scana.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1290215102 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_polysa.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615154 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_parta.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\..\common\include\d_ifacea.h"
+	"..\include\asm_draw.h"
+
+1124615172 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_draw16.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124615190 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_draw.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+	"..\..\common\include\d_ifacea.h"
+
+1124614858 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\math.s
+	"..\include\asm_i386.h"
+	"..\include\quakeasm.h"
+
+1124614242 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\worlda.s
+	"..\include\asm_i386.h"
+	"..\include\quakeasm.h"
+	"..\include\d_ifacea.h"
+
+1124614844 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\snd_mixa.s
+	"..\include\asm_i386.h"
+	"..\include\quakeasm.h"
+
+1124614922 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\surf8.s
+	"..\..\common\include\asm_i386.h"
+	"..\..\common\include\quakeasm.h"
+	"..\include\asm_draw.h"
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\net_loop.c
+	"quakedef.h"
+	"net_loop.h"
+
+1278473698 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\quakedef.h
+	<math.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<setjmp.h>
+	"common.h"
+	"bspfile.h"
+	"vid.h"
+	"sys.h"
+	"zone.h"
+	"mathlib.h"
+	"wad.h"
+	"draw.h"
+	"cvar.h"
+	"palette.h"
+	"screen.h"
+	"net.h"
+	"protocol.h"
+	"cmd.h"
+	"sbar.h"
+	"sound.h"
+	"render.h"
+	"client.h"
+	"progs.h"
+	"server.h"
+	"gl_model.h"
+	"model.h"
+	"d_iface.h"
+	"input.h"
+	"world.h"
+	"keys.h"
+	"console.h"
+	"view.h"
+	"menu.h"
+	"crc.h"
+	"cdaudio.h"
+	"glquake.h"
+
+1206302724 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\common.h
+
+1271032739 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\bspfile.h
+
+1278472775 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\vid.h
+
+1146463590 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\sys.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\zone.h
+
+1280360304 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\mathlib.h
+
+1281498333 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\wad.h
+
+1278019818 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\draw.h
+
+1129715744 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\cvar.h
+
+1276055822 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\screen.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\net.h
+
+1154649272 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\protocol.h
+
+1119564654 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\cmd.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\sbar.h
+
+1127442518 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\sound.h
+
+1299550582 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\render.h
+
+1299464777 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\client.h
+
+1142552852 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\progs.h
+	"pr_comp.h"
+	"progdefs.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\pr_comp.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\progdefs.h
+	"progdefs.q2"
+	"progdefs.q1"
+
+856523606 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\progdefs.q1
+
+1154476150 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\server.h
+
+1297701549 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\model.h
+	"spritegn.h"
+	"..\..\mdl_file.h"
+
+1157818420 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\modelgen.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+1125861254 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\spritegn.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"dictlib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+1297556961 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\d_iface.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\input.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\world.h
+
+1206257024 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\keys.h
+
+1275946410 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\console.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\view.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\menu.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\crc.h
+
+1150414040 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\cdaudio.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\net_loop.h
+
+1131947340 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\net_main.c
+	"quakedef.h"
+	"net_vcr.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\net_vcr.h
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\net_vcr.c
+	"quakedef.h"
+	"net_vcr.h"
+
+1188016722 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\pr_cmds.c
+	"quakedef.h"
+
+1142553378 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\pr_edict.c
+	"quakedef.h"
+
+1125971670 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\pr_exec.c
+	"quakedef.h"
+
+1285834359 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\r_part.c
+	"quakedef.h"
+	"r_local.h"
+
+1297559090 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\r_local.h
+	"r_shared.h"
+
+1297557087 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\r_shared.h
+
+1284194583 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\sbar.c
+	"quakedef.h"
+
+1275709472 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\snd_dma.c
+	"quakedef.h"
+	"winquake.h"
+
+1334648793 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\include\winquake.h
+	<windows.h>
+	<ddraw.h>
+	<dsound.h>
+	<mgraph.h>
+
+854447824 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\dxsdk\sdk\inc\ddraw.h
+	<objbase.h>
+
+854447824 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\dxsdk\sdk\inc\dsound.h
+	<objbase.h>
+
+858106002 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\scitech\include\mgraph.h
+	<stdio.h>
+	"debug.h"
+	"mglrect.hpp"
+	"mglwin.h"
+	"mgldos.h"
+
+857482448 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\scitech\include\debug.h
+	<windows.h>
+
+858362974 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\scitech\include\mglwin.h
+
+854652718 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\scitech\include\mgldos.h
+
+1154477244 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\snd_mem.c
+	"quakedef.h"
+
+1124043306 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\snd_mix.c
+	"quakedef.h"
+	"winquake.h"
+
+1286350633 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\menu.c
+	"quakedef.h"
+	"winquake.h"
+
+1154650284 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\sv_main.c
+	"quakedef.h"
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\sv_move.c
+	"quakedef.h"
+
+1277981873 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\sv_phys.c
+	"quakedef.h"
+
+1277981838 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\sv_user.c
+	"quakedef.h"
+
+1278752897 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\view.c
+	"quakedef.h"
+	"r_local.h"
+
+1279251098 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\wad.c
+	"quakedef.h"
+
+1276030930 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\world.c
+	"quakedef.h"
+
+1172169694 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\mathlib.c
+	<math.h>
+	"quakedef.h"
+
+1128373912 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\zone.c
+	"quakedef.h"
+
+1285834359 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_common\src\r_2d.c
+	"quakedef.h"
+
+1275946290 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\keys.c
+	"quakedef.h"
+
+1297988773 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\host_cmd.c
+	"quakedef.h"
+
+1298925914 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_edge.c
+	"quakedef.h"
+	"d_local.h"
+
+1290126002 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\d_local.h
+	"r_shared.h"
+
+945802404 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_fill.c
+	"quakedef.h"
+
+1290121960 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_init.c
+	"quakedef.h"
+	"d_local.h"
+
+1283503162 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_modech.c
+	"quakedef.h"
+	"d_local.h"
+
+1285719191 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_part.c
+	"quakedef.h"
+	"d_local.h"
+
+1284194582 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\host.c
+	"quakedef.h"
+	"r_local.h"
+
+1275848364 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\cvar.c
+	"quakedef.h"
+
+1290213047 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_polyse.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+	"adivtab.h"
+
+945812600 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\adivtab.h
+
+1291581587 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_scan.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1129714040 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\crc.c
+	"quakedef.h"
+	"crc.h"
+
+1285892146 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_sky.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1275945019 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\console.c
+	<libc.h>
+	<unistd.h>
+	<fcntl.h>
+	"quakedef.h"
+
+1285720264 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_sprite.c
+	"quakedef.h"
+	"d_local.h"
+
+1298029559 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_surf.c
+	"quakedef.h"
+	"d_local.h"
+	"r_local.h"
+
+945802404 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_vars.c
+	"quakedef.h"
+
+1140452912 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\common.c
+	"quakedef.h"
+
+945802404 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\d_zpoint.c
+	"quakedef.h"
+	"d_local.h"
+
+1285892147 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\draw.c
+	"quakedef.h"
+
+1297556377 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\model.c
+	"quakedef.h"
+	"r_local.h"
+
+1283996367 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_aclip.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1275848190 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\cmd.c
+	"quakedef.h"
+
+1290740089 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_alias.c
+	"quakedef.h"
+	"r_local.h"
+	"anorms.h"
+
+1108295358 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\anorms.h
+
+1278737865 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\cl_tent.c
+	"quakedef.h"
+
+1288643543 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_bsp.c
+	"quakedef.h"
+	"r_local.h"
+
+1298064802 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_draw.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1279526442 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\cl_parse.c
+	"quakedef.h"
+
+1126984612 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_edge.c
+	"quakedef.h"
+	"r_local.h"
+
+1278701074 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\cl_main.c
+	"quakedef.h"
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_efrag.c
+	"quakedef.h"
+	"r_local.h"
+
+1152467600 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_light.c
+	"quakedef.h"
+	"r_local.h"
+
+1299451417 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_main.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1278442731 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_misc.c
+	"quakedef.h"
+	"r_local.h"
+
+1299263663 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_sky.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1128136526 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_sprite.c
+	"quakedef.h"
+	"r_local.h"
+
+1279508353 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_surf.c
+	"quakedef.h"
+	"r_local.h"
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\r_vars.c
+	"quakedef.h"
+
+1142558930 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\cl_input.c
+	"quakedef.h"
+
+1298065466 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\screen.c
+	"quakedef.h"
+	"r_local.h"
+
+1129450662 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\cl_demo.c
+	"quakedef.h"
+	<kos.h>
+	<assert.h>
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\net_dgrm.c
+	<windows.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	"quakedef.h"
+	"net_dgrm.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\include\net_dgrm.h
+
+1334815983 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\src\cd_win.c
+	<windows.h>
+	"quakedef.h"
+
+1187469760 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\src\conproc.c
+	<windows.h>
+	"conproc.h"
+	"quakedef.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\include\conproc.h
+
+1350801040 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\src\in_win.c
+	<dinput.h>
+	"quakedef.h"
+	"winquake.h"
+	"dosisms.h"
+
+841218432 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\dxsdk\sdk\inc\dinput.h
+	<objbase.h>
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\include\dosisms.h
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\src\net_win.c
+	"quakedef.h"
+	"net_loop.h"
+	"net_dgrm.h"
+	"net_ser.h"
+	"net_wins.h"
+	"net_wipx.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\include\net_ser.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\include\net_wins.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\include\net_wipx.h
+
+1119932006 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\src\net_wins.c
+	"quakedef.h"
+	"winquake.h"
+	"net_wins.h"
+
+1119932044 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\src\net_wipx.c
+	"quakedef.h"
+	"winquake.h"
+	<wsipx.h>
+	"net_wipx.h"
+
+1334815984 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\src\snd_win.c
+	"quakedef.h"
+	"winquake.h"
+
+1350801464 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\src\sys_win.c
+	"quakedef.h"
+	"winquake.h"
+	"errno.h"
+	"resource.h"
+	"conproc.h"
+
+1136250138 c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\include\resource.h
+
+1277965252 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common\src\chase.c
+	"quakedef.h"
+
+1350197883 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\src\vid_win.c
+	"quakedef.h"
+	"winquake.h"
+	"d_local.h"
+	"resource.h"
+
+1187468630 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\s_win32\winquake.rc
+	"include/resource.h"
+	"afxres.h"
+
+1299344236 c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_common\include\palette.h
+
+1299344236 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_common\src\palette.c
+	"quakedef.h"
+	"r_local.h"
+
+1334648348 c:\users\public\projects\quakedev\sources\exe\makaqu\src\mdl_file.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+1334815447 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\mdl_file.c
+	"quakedef.h"
+	"r_local.h"
+	"mdl_file.h"
+
+1283996367 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\mdl_clip.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1299451716 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\mdl_draw.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+	"adivtab.h"
+
+1297728170 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_soft\src\mdl_rend.c
+	"quakedef.h"
+	"r_local.h"
+	"anorms.h"
+
+1350825824 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\tex_file.c
+	"tex_file.h"
+
+1298479432 c:\users\public\projects\quakedev\sources\exe\makaqu\src\tex_file.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+	"quakedef.h"
+
+1300587051 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\worlda.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"d_ifacea.h"
+
+945812550 c:\users\public\projects\quakedev\sources\exe\makaqu\src\asm_i386.h
+
+1334648438 c:\users\public\projects\quakedev\sources\exe\makaqu\src\quakeasm.h
+
+1350199561 c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_ifacea.h
+
+1300587128 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\surf16.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"block16.h"
+
+1290215058 c:\users\public\projects\quakedev\sources\exe\makaqu\src\asm_draw.h
+
+945812460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\block16.h
+
+1300587192 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\snd_mixa.s
+	"asm_i386.h"
+	"quakeasm.h"
+
+1300587259 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_varsa.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587275 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_edgea.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+
+1300587294 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_drawa.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587311 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_aliasa.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587326 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_aclipa.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587340 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\surf8.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+
+1300587352 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\math.s
+	"asm_i386.h"
+	"quakeasm.h"
+
+1300587366 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_draw.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587382 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_draw16.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587397 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_varsa.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587410 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_spr8.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+
+1300587424 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_scana.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1334814862 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_polysa.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587456 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_parta.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"d_ifacea.h"
+	"asm_draw.h"
+
+1300587410 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\spr_d8.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+
+1350892028 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_part.c
+	"quakedef.h"
+	"r_local.h"
+	"ptc_file.h"
+
+1337566365 c:\users\public\projects\quakedev\sources\exe\makaqu\src\quakedef.h
+	<math.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<setjmp.h>
+	"common.h"
+	"vid.h"
+	"sys.h"
+	"zone.h"
+	"mathlib.h"
+	"wad.h"
+	"draw.h"
+	"cvar.h"
+	"palette.h"
+	"screen.h"
+	"net.h"
+	"protocol.h"
+	"cmd.h"
+	"sbar.h"
+	"croshair.h"
+	"sound.h"
+	"render.h"
+	"client.h"
+	"progs.h"
+	"server.h"
+	"gl_model.h"
+	"mdl_file.h"
+	"model.h"
+	"d_iface.h"
+	"input.h"
+	"world.h"
+	"keys.h"
+	"console.h"
+	"view.h"
+	"menu.h"
+	"crc.h"
+	"cdaudio.h"
+	"glquake.h"
+
+1335826792 c:\users\public\projects\quakedev\sources\exe\makaqu\src\common.h
+
+1301176106 c:\users\public\projects\quakedev\sources\exe\makaqu\src\vid.h
+
+1334648763 c:\users\public\projects\quakedev\sources\exe\makaqu\src\sys.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\zone.h
+
+1334648325 c:\users\public\projects\quakedev\sources\exe\makaqu\src\mathlib.h
+
+1334649104 c:\users\public\projects\quakedev\sources\exe\makaqu\src\wad.h
+
+1338758124 c:\users\public\projects\quakedev\sources\exe\makaqu\src\draw.h
+
+1334647837 c:\users\public\projects\quakedev\sources\exe\makaqu\src\cvar.h
+
+1350201632 c:\users\public\projects\quakedev\sources\exe\makaqu\src\palette.h
+
+1339580857 c:\users\public\projects\quakedev\sources\exe\makaqu\src\screen.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\net.h
+
+1334648405 c:\users\public\projects\quakedev\sources\exe\makaqu\src\protocol.h
+
+1334647702 c:\users\public\projects\quakedev\sources\exe\makaqu\src\cmd.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\sbar.h
+
+1127442518 c:\users\public\projects\quakedev\sources\exe\makaqu\src\sound.h
+
+1339115060 c:\users\public\projects\quakedev\sources\exe\makaqu\src\render.h
+	"d_local.h"
+	"d_iface.h"
+
+1303238498 c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_local.h
+	"r_shared.h"
+
+1350199562 c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_shared.h
+
+1301173045 c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_iface.h
+
+1334647622 c:\users\public\projects\quakedev\sources\exe\makaqu\src\client.h
+
+1339664147 c:\users\public\projects\quakedev\sources\exe\makaqu\src\progs.h
+	"pr_comp.h"
+	"progdefs.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\pr_comp.h
+
+1301332102 c:\users\public\projects\quakedev\sources\exe\makaqu\src\progdefs.h
+	"progdefs.q1"
+
+856523606 c:\users\public\projects\quakedev\sources\exe\makaqu\src\progdefs.q1
+
+1334648735 c:\users\public\projects\quakedev\sources\exe\makaqu\src\server.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\gl_model.h
+	"modelgen.h"
+	"spritegn.h"
+
+1297701550 c:\users\public\projects\quakedev\sources\exe\makaqu\src\modelgen.h
+
+1304113321 c:\users\public\projects\quakedev\sources\exe\makaqu\src\model.h
+	"..\..\mdl_file.h"
+	"..\..\bsp_file.h"
+
+1334647430 c:\users\public\projects\quakedev\sources\exe\makaqu\src\bsp_file.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\input.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\world.h
+
+1334648304 c:\users\public\projects\quakedev\sources\exe\makaqu\src\keys.h
+
+1334647813 c:\users\public\projects\quakedev\sources\exe\makaqu\src\console.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\view.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\menu.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\crc.h
+
+1334647449 c:\users\public\projects\quakedev\sources\exe\makaqu\src\cdaudio.h
+
+1334648017 c:\users\public\projects\quakedev\sources\exe\makaqu\src\glquake.h
+	<windows.h>
+	<QGL/qgl.h>
+	<QGL/qglu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1350823608 c:\users\public\projects\quakedev\sources\exe\makaqu\src\ptc_file.h
+
+1334647934 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_modech.c
+	"quakedef.h"
+	"d_local.h"
+
+1350824544 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_scan.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1339115990 c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_local.h
+	"r_shared.h"
+
+1350706984 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_init.c
+	"quakedef.h"
+	"d_local.h"
+
+1340314992 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_sky.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1339118858 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_surf.c
+	"quakedef.h"
+	"d_local.h"
+	"r_local.h"
+	"bsp_file.h"
+
+945802404 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_vars.c
+	"quakedef.h"
+
+945802404 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_fill.c
+	"quakedef.h"
+
+1303687275 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_zpoint.c
+	"quakedef.h"
+	"d_local.h"
+	"ptc_file.h"
+
+1350825543 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\draw.c
+	"quakedef.h"
+
+1350889496 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\host.c
+	"quakedef.h"
+	"r_local.h"
+
+1350702243 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\host_cmd.c
+	"quakedef.h"
+
+1350186590 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\keys.c
+	"quakedef.h"
+
+1172169694 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\mathlib.c
+	<math.h>
+	"quakedef.h"
+
+1334815440 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\mdl_clip.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1334814853 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\d_edge.c
+	"quakedef.h"
+	"d_local.h"
+
+1339773100 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\mdl_draw.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+	"adivtab.h"
+
+945812600 c:\users\public\projects\quakedev\sources\exe\makaqu\src\adivtab.h
+
+1339803360 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\mdl_rend.c
+	"quakedef.h"
+	"r_local.h"
+	"anorms.h"
+
+1108295358 c:\users\public\projects\quakedev\sources\exe\makaqu\src\anorms.h
+
+1350828996 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\menu.c
+	"quakedef.h"
+	"croshair.h"
+	"winquake.h"
+
+1334815969 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\model.c
+	"quakedef.h"
+	"r_local.h"
+	"spr_file.h"
+	"mdl_file.h"
+	"bsp_file.h"
+	"ptc_file.h"
+
+1338961813 c:\users\public\projects\quakedev\sources\exe\makaqu\src\spr_file.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"dictlib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\net_dgrm.c
+	<windows.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	"quakedef.h"
+	"net_dgrm.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\net_dgrm.h
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\net_loop.c
+	"quakedef.h"
+	"net_loop.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\net_loop.h
+
+1334815969 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\net_main.c
+	"quakedef.h"
+	"net_vcr.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\net_vcr.h
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\net_vcr.c
+	"quakedef.h"
+	"net_vcr.h"
+
+1350826092 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\palette.c
+	"quakedef.h"
+	"r_local.h"
+
+1339666714 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\pr_cmds.c
+	"quakedef.h"
+
+1350824208 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\pr_edict.c
+	"quakedef.h"
+
+1125971670 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\pr_exec.c
+	"quakedef.h"
+
+1350825897 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_2d.c
+	"quakedef.h"
+
+1350186100 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\cvar.c
+	"quakedef.h"
+
+1129714040 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\crc.c
+	"quakedef.h"
+	"crc.h"
+
+1334648566 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_bsp.c
+	"quakedef.h"
+	"r_local.h"
+
+1334815973 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_draw.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+	"spr_file.h"
+	"mdl_file.h"
+	"bsp_file.h"
+	"ptc_file.h"
+
+1338776023 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\console.c
+	<libc.h>
+	<unistd.h>
+	<fcntl.h>
+	"quakedef.h"
+
+1304477048 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_edge.c
+	"quakedef.h"
+	"r_local.h"
+
+1340303880 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\common.c
+	"quakedef.h"
+
+1333949511 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_efrag.c
+	"quakedef.h"
+	"r_local.h"
+
+1339118859 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_light.c
+	"quakedef.h"
+	"r_local.h"
+
+1342766368 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_main.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1278442731 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_misc.c
+	"quakedef.h"
+	"r_local.h"
+
+1350824788 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_part.c
+	"quakedef.h"
+	"r_local.h"
+	"ptc_file.h"
+
+1334815975 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_sky.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1340270650 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_surf.c
+	"quakedef.h"
+	"r_local.h"
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\r_vars.c
+	"quakedef.h"
+
+1350889495 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\cmd.c
+	"quakedef.h"
+
+1337566365 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\quakedef.h
+	<math.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<setjmp.h>
+	"common.h"
+	"vid.h"
+	"sys.h"
+	"zone.h"
+	"mathlib.h"
+	"wad.h"
+	"draw.h"
+	"cvar.h"
+	"palette.h"
+	"screen.h"
+	"net.h"
+	"protocol.h"
+	"cmd.h"
+	"sbar.h"
+	"croshair.h"
+	"sound.h"
+	"render.h"
+	"client.h"
+	"progs.h"
+	"server.h"
+	"gl_model.h"
+	"mdl_file.h"
+	"model.h"
+	"d_iface.h"
+	"input.h"
+	"world.h"
+	"keys.h"
+	"console.h"
+	"view.h"
+	"menu.h"
+	"crc.h"
+	"cdaudio.h"
+	"glquake.h"
+
+1335826792 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\common.h
+
+1301176106 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\vid.h
+
+1334648763 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\sys.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\zone.h
+
+1334648325 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\mathlib.h
+
+1334649104 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\wad.h
+
+1338758124 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\draw.h
+
+1334647837 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\cvar.h
+
+1350201632 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\palette.h
+
+1339580857 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\screen.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\net.h
+
+1334648405 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\protocol.h
+
+1334647702 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\cmd.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\sbar.h
+
+1127442518 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\sound.h
+
+1339115060 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\render.h
+	"d_local.h"
+	"d_iface.h"
+
+1303238498 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\d_local.h
+	"r_shared.h"
+
+1350199562 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\r_shared.h
+
+1301173045 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\d_iface.h
+
+1334647622 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\client.h
+
+1339664147 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\progs.h
+	"pr_comp.h"
+	"progdefs.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\pr_comp.h
+
+1301332102 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\progdefs.h
+	"progdefs.q1"
+
+856523606 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\progdefs.q1
+
+1334648735 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\server.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\gl_model.h
+	"modelgen.h"
+	"spritegn.h"
+
+1297701550 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\modelgen.h
+
+1334648348 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\mdl_file.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+1304113321 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\model.h
+	"..\..\mdl_file.h"
+	"..\..\bsp_file.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\input.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\world.h
+
+1334648304 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\keys.h
+
+1334647813 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\console.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\view.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\menu.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\crc.h
+
+1334647449 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\cdaudio.h
+
+1334648017 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\glquake.h
+	<windows.h>
+	<QGL/qgl.h>
+	<QGL/qglu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\net_loop.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\net_dgrm.h
+
+1350824547 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\cl_tent.c
+	"quakedef.h"
+	"ptc_file.h"
+
+1350824546 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\sbar.c
+	"quakedef.h"
+	"croshair.h"
+
+1350826201 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\screen.c
+	"quakedef.h"
+	"r_local.h"
+	"ptc_file.h"
+
+1334815989 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\snd_dma.c
+	"quakedef.h"
+	"winquake.h"
+
+1334815989 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\snd_mem.c
+	"quakedef.h"
+
+1124043306 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\snd_mix.c
+	"quakedef.h"
+	"winquake.h"
+
+1350824545 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\cl_parse.c
+	"quakedef.h"
+	"ptc_file.h"
+	"spr_file.h"
+
+1350825544 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\spr_d.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+	"spr_file.h"
+
+1350824545 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\cl_main.c
+	"quakedef.h"
+	"ptc_file.h"
+
+1334815991 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\spr_file.c
+	"quakedef.h"
+	"model.h"
+	"spr_file.h"
+
+1334815992 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\spr_r.c
+	"quakedef.h"
+	"r_local.h"
+	"spr_file.h"
+
+1340361031 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\cl_input.c
+	"quakedef.h"
+
+1350379796 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\cl_demo.c
+	"quakedef.h"
+	<kos.h>
+	<assert.h>
+
+1339664090 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\sv_main.c
+	"quakedef.h"
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\sv_move.c
+	"quakedef.h"
+
+1334815994 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\sv_phys.c
+	"quakedef.h"
+
+1334815995 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\sv_user.c
+	"quakedef.h"
+
+1337549529 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\view.c
+	"quakedef.h"
+	"r_local.h"
+
+1337587569 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\wad.c
+	"quakedef.h"
+
+1334815999 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\world.c
+	"quakedef.h"
+
+1350823305 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\chase.c
+	"quakedef.h"
+
+1128373912 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\zone.c
+	"quakedef.h"
+
+1350828784 c:\users\public\projects\quakedev\sources\exe\makaqu\src\croshair.h
+
+1350828784 c:\users\public\projects\quakedev\sources\exe\makaqu\src\\croshair.h
+
+1350826006 source:c:\users\public\projects\quakedev\sources\exe\makaqu\src\croshair.c
+	"quakedef.h"
+
+1300587326 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_aclipa.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+945812550 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\asm_i386.h
+
+1334648438 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\quakeasm.h
+
+1290215058 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\asm_draw.h
+
+1350199561 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_ifacea.h
+
+1300587128 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\surf16.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"block16.h"
+
+945812460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\block16.h
+
+1300587410 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\spr_d8.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+
+1300587192 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\snd_mixa.s
+	"asm_i386.h"
+	"quakeasm.h"
+
+1300587239 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\src\sys_wina.s
+	"..\..\asm_i386.h"
+	"..\..\quakeasm.h"
+
+1300587259 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_varsa.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587275 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_edgea.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+
+1300587294 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_drawa.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587311 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_aliasa.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587051 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\worlda.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"d_ifacea.h"
+
+1300587352 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\math.s
+	"asm_i386.h"
+	"quakeasm.h"
+
+1540061433 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_draw.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587382 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_draw16.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587397 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_varsa.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587424 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_scana.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1334814862 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_polysa.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+	"d_ifacea.h"
+
+1300587456 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_parta.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"d_ifacea.h"
+	"asm_draw.h"
+
+1539370932 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_part.c
+	"quakedef.h"
+	"r_local.h"
+	"ptc_file.h"
+
+1337566365 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\quakedef.h
+	<math.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<setjmp.h>
+	"common.h"
+	"vid.h"
+	"sys.h"
+	"zone.h"
+	"mathlib.h"
+	"wad.h"
+	"draw.h"
+	"cvar.h"
+	"palette.h"
+	"screen.h"
+	"net.h"
+	"protocol.h"
+	"cmd.h"
+	"sbar.h"
+	"croshair.h"
+	"sound.h"
+	"render.h"
+	"client.h"
+	"progs.h"
+	"server.h"
+	"gl_model.h"
+	"mdl_file.h"
+	"model.h"
+	"d_iface.h"
+	"input.h"
+	"world.h"
+	"keys.h"
+	"console.h"
+	"view.h"
+	"menu.h"
+	"crc.h"
+	"cdaudio.h"
+	"glquake.h"
+
+1335826792 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\common.h
+
+1301176106 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\vid.h
+
+1334648763 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\sys.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\zone.h
+
+1334648325 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\mathlib.h
+
+1334649104 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\wad.h
+
+1338758124 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\draw.h
+
+1334647837 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\cvar.h
+
+1539776036 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\palette.h
+
+1339580857 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\screen.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\net.h
+
+1334648405 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\protocol.h
+
+1334647702 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\cmd.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\sbar.h
+
+1350828784 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\croshair.h
+
+1127442518 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\sound.h
+
+1539870087 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\render.h
+	"d_local.h"
+	"d_iface.h"
+
+1540653496 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_local.h
+	"r_shared.h"
+
+1350199562 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_shared.h
+
+1301173045 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_iface.h
+
+1539960724 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\client.h
+
+1339664147 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\progs.h
+	"pr_comp.h"
+	"progdefs.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\pr_comp.h
+
+1301332102 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\progdefs.h
+	"progdefs.q1"
+
+856523606 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\progdefs.q1
+
+1334648735 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\server.h
+
+1540750120 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\mdl_file.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+1539368893 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\model.h
+	"mdl_file.h"
+	"bsp_file.h"
+
+1540703692 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\bsp_file.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\input.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\world.h
+
+1334648304 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\keys.h
+
+1334647813 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\console.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\view.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\menu.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\crc.h
+
+1334647449 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\cdaudio.h
+
+1339115990 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_local.h
+	"r_shared.h"
+
+1350823608 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\ptc_file.h
+
+1334647934 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_modech.c
+	"quakedef.h"
+	"d_local.h"
+
+1539870087 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_init.c
+	"quakedef.h"
+	"d_local.h"
+
+1540703692 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_scan.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+945802404 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_fill.c
+	"quakedef.h"
+
+1340314992 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_sky.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1540181364 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_surf.c
+	"quakedef.h"
+	"d_local.h"
+	"r_local.h"
+	"bsp_file.h"
+
+945802404 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_vars.c
+	"quakedef.h"
+
+1540703812 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_edge.c
+	"quakedef.h"
+	"d_local.h"
+
+1303687275 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\d_zpoint.c
+	"quakedef.h"
+	"d_local.h"
+	"ptc_file.h"
+
+1350825543 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\draw.c
+	"quakedef.h"
+
+1350889496 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\host.c
+	"quakedef.h"
+	"r_local.h"
+
+1350702243 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\host_cmd.c
+	"quakedef.h"
+
+1350186590 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\keys.c
+	"quakedef.h"
+
+1350186100 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\cvar.c
+	"quakedef.h"
+
+1172169694 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\mathlib.c
+	<math.h>
+	"quakedef.h"
+
+1539815815 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\mdl_clip.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1540763581 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\mdl_draw.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+	"adivtab.h"
+
+945812600 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\adivtab.h
+
+1334815447 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\mdl_file.c
+	"quakedef.h"
+	"r_local.h"
+	"mdl_file.h"
+
+1540069045 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\mdl_rend.c
+	"quakedef.h"
+	"r_local.h"
+	"anorms.h"
+
+1108295358 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\anorms.h
+
+1334815969 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\model.c
+	"quakedef.h"
+	"r_local.h"
+	"spr_file.h"
+	"mdl_file.h"
+	"bsp_file.h"
+	"ptc_file.h"
+
+1338961813 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\spr_file.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"dictlib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\net_dgrm.c
+	<windows.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	"quakedef.h"
+	"net_dgrm.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\net_dgrm.h
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\net_loop.c
+	"quakedef.h"
+	"net_loop.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\net_loop.h
+
+1334815969 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\net_main.c
+	"quakedef.h"
+	"net_vcr.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\net_vcr.h
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\net_vcr.c
+	"quakedef.h"
+	"net_vcr.h"
+
+1539869820 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\palette.c
+	"quakedef.h"
+	"r_local.h"
+
+1339666714 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\pr_cmds.c
+	"quakedef.h"
+
+1350824208 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\pr_edict.c
+	"quakedef.h"
+
+1125971670 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\pr_exec.c
+	"quakedef.h"
+
+1350826006 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\croshair.c
+	"quakedef.h"
+
+1540750410 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\chase.c
+	"quakedef.h"
+
+1129714040 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\crc.c
+	"quakedef.h"
+	"crc.h"
+
+1334648566 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_bsp.c
+	"quakedef.h"
+	"r_local.h"
+
+1334815973 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_draw.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+	"spr_file.h"
+	"mdl_file.h"
+	"bsp_file.h"
+	"ptc_file.h"
+
+1338776023 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\console.c
+	<libc.h>
+	<unistd.h>
+	<fcntl.h>
+	"quakedef.h"
+
+1304477048 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_edge.c
+	"quakedef.h"
+	"r_local.h"
+
+1340303880 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\common.c
+	"quakedef.h"
+
+1540750411 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_efrag.c
+	"quakedef.h"
+	"r_local.h"
+
+1539962471 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_light.c
+	"quakedef.h"
+	"r_local.h"
+
+1540750410 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_main.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+1278442731 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_misc.c
+	"quakedef.h"
+	"r_local.h"
+
+1539712322 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_part.c
+	"quakedef.h"
+	"r_local.h"
+	"ptc_file.h"
+
+1334815975 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_sky.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_vars.c
+	"quakedef.h"
+
+1350889495 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\cmd.c
+	"quakedef.h"
+
+1334815983 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\src\cd_win.c
+	<windows.h>
+	"quakedef.h"
+
+1337566365 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\quakedef.h
+	<math.h>
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<setjmp.h>
+	"common.h"
+	"vid.h"
+	"sys.h"
+	"zone.h"
+	"mathlib.h"
+	"wad.h"
+	"draw.h"
+	"cvar.h"
+	"palette.h"
+	"screen.h"
+	"net.h"
+	"protocol.h"
+	"cmd.h"
+	"sbar.h"
+	"croshair.h"
+	"sound.h"
+	"render.h"
+	"client.h"
+	"progs.h"
+	"server.h"
+	"gl_model.h"
+	"mdl_file.h"
+	"model.h"
+	"d_iface.h"
+	"input.h"
+	"world.h"
+	"keys.h"
+	"console.h"
+	"view.h"
+	"menu.h"
+	"crc.h"
+	"cdaudio.h"
+	"glquake.h"
+
+1335826792 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\common.h
+
+1301176106 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\vid.h
+
+1334648763 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\sys.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\zone.h
+
+1334648325 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\mathlib.h
+
+1334649104 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\wad.h
+
+1338758124 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\draw.h
+
+1334647837 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\cvar.h
+
+1539776036 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\palette.h
+
+1339580857 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\screen.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\net.h
+
+1334648405 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\protocol.h
+
+1334647702 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\cmd.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\sbar.h
+
+1350828784 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\croshair.h
+
+1127442518 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\sound.h
+
+1539870087 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\render.h
+	"d_local.h"
+	"d_iface.h"
+
+1540653496 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\d_local.h
+	"r_shared.h"
+
+1350199562 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\r_shared.h
+
+1301173045 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\d_iface.h
+
+1539960724 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\client.h
+
+1339664147 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\progs.h
+	"pr_comp.h"
+	"progdefs.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\pr_comp.h
+
+1301332102 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\progdefs.h
+	"progdefs.q1"
+
+856523606 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\progdefs.q1
+
+1334648735 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\server.h
+
+1540750120 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\mdl_file.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+
+1539368893 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\model.h
+	"mdl_file.h"
+	"bsp_file.h"
+
+1540703692 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\bsp_file.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\input.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\world.h
+
+1334648304 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\keys.h
+
+1334647813 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\console.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\view.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\menu.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\crc.h
+
+1334647449 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\cdaudio.h
+
+1187469760 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\src\conproc.c
+	<windows.h>
+	"conproc.h"
+	"quakedef.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\include\conproc.h
+
+1350801040 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\src\in_win.c
+	<dinput.h>
+	"quakedef.h"
+	"winquake.h"
+	"dosisms.h"
+
+841218432 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\dxsdk\sdk\inc\dinput.h
+	<objbase.h>
+
+1334648793 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\include\winquake.h
+	<windows.h>
+	<ddraw.h>
+	<dsound.h>
+	<mgraph.h>
+
+854447824 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\dxsdk\sdk\inc\ddraw.h
+	<objbase.h>
+
+854447824 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\dxsdk\sdk\inc\dsound.h
+	<objbase.h>
+
+858106002 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\scitech\include\mgraph.h
+	<stdio.h>
+	"debug.h"
+	"mglrect.hpp"
+	"mglwin.h"
+	"mgldos.h"
+
+857482448 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\scitech\include\debug.h
+	<windows.h>
+
+858362974 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\scitech\include\mglwin.h
+
+854652718 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\scitech\include\mgldos.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\include\dosisms.h
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\src\net_win.c
+	"quakedef.h"
+	"net_loop.h"
+	"net_dgrm.h"
+	"net_ser.h"
+	"net_wins.h"
+	"net_wipx.h"
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\net_loop.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\\net_dgrm.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\include\net_ser.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\include\net_wins.h
+
+945802460 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\include\net_wipx.h
+
+1119932006 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\src\net_wins.c
+	"quakedef.h"
+	"winquake.h"
+	"net_wins.h"
+
+1119932044 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\src\net_wipx.c
+	"quakedef.h"
+	"winquake.h"
+	<wsipx.h>
+	"net_wipx.h"
+
+1334815984 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\src\snd_win.c
+	"quakedef.h"
+	"winquake.h"
+
+1350801464 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\src\sys_win.c
+	"quakedef.h"
+	"winquake.h"
+	"errno.h"
+	"resource.h"
+	"conproc.h"
+
+1136250138 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\include\resource.h
+
+1540750494 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\cl_tent.c
+	"quakedef.h"
+	"ptc_file.h"
+
+1539380335 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\src\vid_win.c
+	"quakedef.h"
+	"winquake.h"
+	"d_local.h"
+	"resource.h"
+
+1187468630 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\s_win32\winquake.rc
+	"include/resource.h"
+	"afxres.h"
+
+1540763857 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\sbar.c
+	"quakedef.h"
+	"croshair.h"
+
+1350826201 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\screen.c
+	"quakedef.h"
+	"r_local.h"
+	"ptc_file.h"
+
+1334815989 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\snd_dma.c
+	"quakedef.h"
+	"winquake.h"
+
+1334815989 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\snd_mem.c
+	"quakedef.h"
+
+1124043306 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\snd_mix.c
+	"quakedef.h"
+	"winquake.h"
+
+1540752074 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\cl_parse.c
+	"quakedef.h"
+	"ptc_file.h"
+	"spr_file.h"
+
+1539380336 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\spr_d.c
+	"quakedef.h"
+	"r_local.h"
+	"d_local.h"
+	"spr_file.h"
+
+1540750411 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\cl_main.c
+	"quakedef.h"
+	"ptc_file.h"
+
+1334815991 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\spr_file.c
+	"quakedef.h"
+	"model.h"
+	"spr_file.h"
+
+1334815992 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\spr_r.c
+	"quakedef.h"
+	"r_local.h"
+	"spr_file.h"
+
+1340361031 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\cl_input.c
+	"quakedef.h"
+
+1350379796 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\cl_demo.c
+	"quakedef.h"
+	<kos.h>
+	<assert.h>
+
+1339664090 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\sv_main.c
+	"quakedef.h"
+
+945802406 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\sv_move.c
+	"quakedef.h"
+
+1334815994 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\sv_phys.c
+	"quakedef.h"
+
+1334815995 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\sv_user.c
+	"quakedef.h"
+
+1350825824 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\tex_file.c
+	"tex_file.h"
+
+1298479432 c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\tex_file.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"cmdlib.h"
+	"scriplib.h"
+	"trilib.h"
+	"lbmlib.h"
+	"mathlib.h"
+	"quakedef.h"
+
+1337549529 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\view.c
+	"quakedef.h"
+	"r_local.h"
+
+1337587569 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\wad.c
+	"quakedef.h"
+
+1334815999 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\world.c
+	"quakedef.h"
+
+1350825897 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_2d.c
+	"quakedef.h"
+
+1128373912 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\zone.c
+	"quakedef.h"
+
+1539374266 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\surf8.s
+	"asm_i386.h"
+	"quakeasm.h"
+	"asm_draw.h"
+
+1540068754 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\menu.c
+	"quakedef.h"
+	"croshair.h"
+	"winquake.h"
+
+1540751588 source:c:\users\public\projects\quakedev\sources\exe\makaqu1.5.1\src\r_surf.c
+	"quakedef.h"
+	"r_local.h"
+

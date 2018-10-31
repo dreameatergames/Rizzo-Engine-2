@@ -1,0 +1,200 @@
+================================================================
+Title         : How to use the QC File Access in QuakeC
+Date          : 2001-09-20
+Filename      : How_to_use_QCFA_in_QuakeC.txt
+Author        : Frika-C
+Email Address : FrikaC@Quakesrc.org
+Homepage      : FrikaC's projects
+                http://www.inside3d.com/frikbot/
+                Quake Standards Group (short QSG)
+                http://www.quakesrc.org/
+Complexity    : Low
+================================================================
+
+
+
+Introduction
+============
+With all due respect to Quake Engine Resources, their QuakeC file tutorial certainly isn't up to par with the rest of their code. While they create awesome graphics code, not ever being QC Coders they over looked some of the quirks of QuakeC, and some of their functions simply do not work. At the request of many in the QuakeC community, I have created the following tutorial which adds "better" QuakeC file support. It's a bit more limited than QER's version, but it's also much simpler to use. (It's output is also human-readable)
+
+In addition, included are functions for string manipulation and handling in QuakeC. These are needed because all file I/O in this tutorial is done with strings. Most of these functions can also be used in a wide variety of other circumstances. Anyway, lets get started.
+
+
+
+How to use the QC File Access in QuakeC
+=======================================
+On to the QuakeC, please read the EBFS tutorial before you try to use new builtin functions.
+
+First off, you'll need to add this chunk of stuff to your defs.qc file:
+
+float(string s) stof = #81;	// 2001-09-20 QuakeC string manipulation by FrikaC
+							// taken from QuakeWorld
+
+// 2001-09-20 QuakeC file access by FrikaC  start
+float(string filename, float mode) fopen = #110;
+void(float fhandle) fclose = #111;
+string(float fhandle) fgets = #112;
+void(float fhandle, string s) fputs = #113;
+// 2001-09-20 QuakeC file access by FrikaC  end
+
+// 2001-09-20 QuakeC string manipulation by FrikaC  start
+float(string s) strlen = #114;
+string(string s1, string s2) strcat = #115;
+string(string s, float start, float length) substring = #116;
+vector(string s) stov = #117;
+string(string s) strzone = #118;
+string(string s) strunzone = #119;
+// 2001-09-20 QuakeC string manipulation by FrikaC  end
+
+
+Additionally, put these constants somewhere to make the open command a little easier to use:
+
+float FILE_READ = 0;
+float FILE_APPEND = 1;
+float FILE_WRITE = 2;
+
+
+Here now is an explanation of each of the commands that we just slaved over making. (Well, I slaved, you just copied :). These descriptions should get you started. If they just don't do it for you, there is also some example code at the bottom.
+
+
+fopen - This is pretty basic, it opens up the file you specify by the string parameter, and passes you back the file handle you'll need for all the other file functions. There are three modes specified by the second parameter: FILE_WRITE, FILE_APPEND and FILE_READ. Read allows you to only use the read command on this file handle. Write, well you get the picture. Append will open an existing file and you can use write to add on to it. Open will return -1 (on FILE_READ typically, when the file couldn't be found) if the file could not be opened. Also note that files are always relative to the current game directory.
+
+Ex: f = fopen("foo.txt", FILE_READ);
+
+
+fclose - Closes a file opened with the open command. Quake will close any open files on quit, but I recommend that you close any and all files you've left open at any opportunity you have in the code.
+
+Ex: fclose(f);
+
+
+fputs - Another simple command, pass the file handle you want to write to in the first parameter, then the string you want to write. It operates a little like bprint. You can use ftos() and vtos() to write game data. Note that you must put a \n on the line if you want to read each line back with fgets(). You can also use something similar to the multi-centerprint trick on this function to write multiple strings at once.
+
+Ex: fputs(f, "file test example\n");
+
+
+fgets - Read is a lot like INPUT# for anyone that used to code in BASIC. It returns exactly one line of text from a file. The function looks for line feeds (\n), so you are somewhat limited in that you cannot use strings that contain linefeeds. For EndOfFile it returns a VOID string, which you can check with "if (line)" in QuakeC. Note that the VOID string is *not* the same as an empty string (""). Additionally, carriage returns (added by many DOS/WIN text editors) are discarded, this is done so that an unwitting Windows user doesn't screw up the file when he opens it in notepad.
+
+Ex: h = fgets(f);
+
+
+strlen - Same as the C function of the same name, returns the length, in characters, of the string passed to it.
+
+Ex: size = strlen(h);
+
+
+strcat - This is a pretty useful function to have around, it's exactly what us QC coders have dreamed about for a while: string culmination. You pass in two stings, and they become one! Presto! Unfortunately (or fortunately) it's not exactly like the C function where it gets it's name, the string it creates is stored in a special buffer (not simply appended, which would be an absolute nightmare), and will subsequently be overwritten by another strcat function. This isn't the same buffer as the rest of the functions that return strings, so you can use strcat on their outputs witout fear of overwriting their outputs. (more on that later)
+
+Ex: p = strcat(h, " is my favorite variable");
+
+
+substring - This is probably most like the substr function in Perl. Pass to it a string, a start and length then it'll give a portion of the string back. This is best shown by example:
+
+Ex: substring("Abraham Lincoln", 1, 3) == "bra"
+
+
+stof - This is straight from QuakeWorld. It simply converts a string into a float. No muss, no fuss. This is the reciprocal of ftos(), you definitely need this for reading file data back.
+
+Ex: stof("0.09") == 0.09
+
+
+stov - My own little invention, similar to stof(). This converts a string directly into a vector. The string should be in the format '9.0 0.3 650.0' or something similar. This is the reciprocal of vtos(). Here is a bad example that tells you nothing:
+
+Ex: v = stov(h);
+
+
+strzone - There is a reason I left these two functions (strzone and strunzone) to the very end on the descriptions: They are very difficult to explain in layman's terms. strzone essentially copies the string you pass to it into the "zone", then returns the pointer to it's new location. This is useful because the pointer string system can be frustrating in QuakeC sometimes. For instance, it has been impossible up until now to centerprint more than one value (ftos, vtos), without a lot hassle with WriteByte. This is because any string created with those functions (and some of my new functions) are stored in one solitary string buffer. With this function, you can store the output of one of these functions in the zone, and it will not be overwritten by the next function to use the buffer. It also has other advantages. For instance, many people have tried to use a player's netname for some type of string input, unfortunately, they soon discover that as the player changes his name, the variables you thought you copied his name with have also changed. (It's a fun way to learn about pointers, isn't it? :) Well strzone can be employed to copy off the netname (or any other variable) and store it for safe keeping. Be careful though, Quake has only 48k of zone allocated by default, this can quickly fill up with all the stuff the engine likes to put in there (cvar definitions, aliases, etc.). You can easily specify more with the -zone commandline parameter though. This is probably an "advanced" function, the average coder will probably have no use of it.
+
+Ex: h = strzone(h);
+
+
+strunzone - This simply frees a string defintion from memory that was created by the strzone() command. As the zone is never cleared inside the game, I recommend that you tidy up anything you zoned or else you will likely run out of zone space before not too long.
+
+Ex: strunzone(h);
+
+
+An example application of all this in QC might help. So I wrote one. Here, read it!
+
+void () saveme =
+{
+	local string h;
+	local float file;
+	file = open ("save.txt", FILE_WRITE);
+	fputs(file, "// Sample Save File\n");
+	h = ftos(self.health);
+	fputs(file, h);
+	fputs(file, "\n");
+	h = vtos(self.origin);
+	fputs(file, h);
+	fputs(file, "\n");
+	h = vtos(self.angles);
+	fputs(file, h);
+	fputs(file, "\n");
+	close(file);
+};
+
+void () loadme =
+{
+	local string h;
+	local float file;
+	local vector v;
+
+	file = open ("save.txt", FILE_READ);
+	if (file == -1)
+	{
+		bprint("Error: file not found\n");
+		return;
+	}
+	h = fgets(file); // reads one line at a time (up to a \n)
+	// the first line is just a comment, ignore it
+	h = fgets(file);
+	self.health = stof(h);
+	h = fgets(file);
+	v = stov(h);
+	setorigin(self, v);
+	h = fgets(file);
+	v = stov(h);
+	self.angles = v;
+	self.fixangle = TRUE;
+	close(file);
+};
+
+void() listfile =
+{
+	local float file;
+	local float i;
+	local string lineno;
+	local string line;
+
+	file = fopen ("foo.txt", FILE_READ);
+	if (file == -1)
+	{
+		dprint("Error: file not found\n");
+		return;
+	}
+
+	i = 0;
+	line = fgets(file); // reads one line at a time (up to a \n)
+	while(line)
+	{
+		line = strzone(line);
+
+		i = i + 1;
+		lineno = ftos(i);
+
+		dprint(lineno);
+		dprint(": ");
+		dprint(line);
+		dprint("\n");
+
+		line = strunzone(line);
+
+		line = fgets(file);
+	}
+	dprint("[EOF]\n");
+
+	fclose(file);
+};
+
+To use this, put this code at the end of world.qc. Compile, fire it up, then set developer to 1. Use qcexec (your engine has qcexec, right?) to save and then restore yourself. ("qcexec saveme"...then walk into another room and type "qcexec loadme").
+
+Well that's it, I hope you enjoyed it, I sure did. Please, if you find any bugs or have any suggestions, don't hesitate to e-mail me. Cya.
